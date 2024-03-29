@@ -35,8 +35,7 @@ public class Game {
             if (!isAllowed[turn]) {
                 if (num != 1) {
                     turn = 1 - turn;
-                    // turn = 1 => 1-1 = 0;
-                    // turn = 0 => 1-0 = 1;
+                    
                     continue;
                 } else {
                     isAllowed[turn] = true;
